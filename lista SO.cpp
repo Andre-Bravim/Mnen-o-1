@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Estrutura base do n�.
+//Estrutura base do nó.
 struct node
 {
     int nData;
@@ -9,7 +9,7 @@ struct node
 };
  
  
-//Fun��o pra printar o n� na tela.
+//Função pra printar o nó na tela.
 void displayLL(struct node *p)
 {
     printf("Mostrando a lista:\n"); 
@@ -44,7 +44,7 @@ int main(void)
     pNode3 = (struct node*) malloc(sizeof(struct node*));
     pNode3->nData = 30;
      
-    //Conectando os n�s
+    //Conectando os nós
     pNode1->pLink = pNode2;
     pNode2->pLink = pNode3;  
     pNode3->pLink = NULL;
@@ -55,3 +55,4 @@ int main(void)
   
   return 0;
 }
+//esse foi o codigo que usei como pase bara a realização do meu projeto, não entendi nada, nao sei a linguaggem C++, e acabei não consiguindo terminar o projeto por não entender o que estava fazendo e não querer apenas copiar e colar.
