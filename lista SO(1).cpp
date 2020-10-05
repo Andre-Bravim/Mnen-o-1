@@ -17,3 +17,4 @@ int main(void){
  
 
 }
+//esse foi o mais longe que cheguei sem entender nada kkkk
