@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Estrutura base do nÛ.
+//Estrutura base do n√≥.
 struct node
 {
     int nData;
@@ -9,7 +9,7 @@ struct node
 };
  
  
-//FunÁ„o pra printar o nÛ na tela.
+//Fun√ß√£o pra printar o n√≥ na tela.
 void displayLL(struct node *p)
 {
     printf("Mostrando a lista:\n"); 
@@ -44,7 +44,7 @@ int main(void)
     pNode3 = (struct node*) malloc(sizeof(struct node*));
     pNode3->nData = 30;
      
-    //Conectando os nÛs
+    //Conectando os n√≥s
     pNode1->pLink = pNode2;
     pNode2->pLink = pNode3;  
     pNode3->pLink = NULL;
@@ -55,3 +55,4 @@ int main(void)
   
   return 0;
 }
+// Esse foi o codigo que usei de base para tentar fazer a atividade, n√£o entendi nada, n√£o sei programar em C++, e  acabei n√£o conseguindo realizar o projeto a tempo, porque eu n√£o queria apenas copiar e colar, mas entender o que euusestava fazendo.
